@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./sass/index.css";
 import logo from "./img/logo.png";
-import one from "./img/img-small/one.jpg";
-import two from "./img/img-small/two.jpg";
-import three from "./img/img-small/three.jpg";
-import four from "./img/img-small/four.jpg";
+import one from "./img/straregies/one.jpg";
+import two from "./img/straregies/two.jpg";
+import three from "./img/straregies/three.jpg";
+import four from "./img/straregies/four.jpg";
 
 // * Header section START
 
@@ -23,7 +23,7 @@ const HeaderLogo = () => {
 };
 
 const HeaderTitle = () => {
-  return <h1>Genius trees</h1>;
+  return <h2>Genius trees</h2>;
 };
 
 const HeaderNavigation = () => {
