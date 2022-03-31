@@ -1,6 +1,22 @@
-@mixin font ($size, $height: $size, $weight: bold, $style: normal) {
+@mixin font($size, $height: $size, $weight: bold, $style: normal) {
   font-style: $style;
   font-weight: $weight;
   font-size: $size;
   line-height: $height;
+}
+
+@mixin columns($width) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  > * {
+    // берем всех прямых потомков нашего родительского компонента
+    flex-basis: $width;
+  }
+}
+
+@mixin icon-tools($background-color, $background-image) {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }

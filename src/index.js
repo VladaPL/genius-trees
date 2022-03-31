@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./sass/index.css";
 import logo from "./img/logo.png";
-import one from "./img/straregies/one.jpg";
-import two from "./img/straregies/two.jpg";
-import three from "./img/straregies/three.jpg";
-import four from "./img/straregies/four.jpg";
+import one from "./img/straregies/1.jpg";
+import two from "./img/straregies/2.jpg";
+import three from "./img/straregies/3.jpg";
+import four from "./img/straregies/4.jpg";
+import five from "./img/straregies/5.jpg";
+import six from "./img/straregies/6.jpg";
 import promoImg from "./img/backgrounds/5.png";
 
 // * Header section START
@@ -211,6 +213,30 @@ const StrategiesSection = () => {
           </article>
           <article class="strategy strategy_wide block-shadowed">
             <img class="strategy__image" src={four} alt="strategy" />
+            <div class="strategy__content">
+              <h3 class="strategy__name">Enjoy communication with nature</h3>
+              <div class="strategy__tags tags">
+                <span class="tag tag_colored">Climate</span>
+                <span class="tag tag_colored">Landscape</span>
+                <span class="tag tag_colored">Trees</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy block-shadowed">
+            <img class="strategy__image" src={five} alt="strategy" />
+            <div class="strategy__content">
+              <h3 class="strategy__name">
+                Success Steps For Your Personal Or Life of Nature
+              </h3>
+              <div class="strategy__tags tags">
+                <span class="tag tag_colored">Climate</span>
+                <span class="tag tag_colored">Landscape</span>
+                <span class="tag tag_colored">Trees</span>
+              </div>
+            </div>
+          </article>
+          <article class="strategy strategy_wide block-shadowed">
+            <img class="strategy__image" src={six} alt="strategy" />
             <div class="strategy__content">
               <h3 class="strategy__name">Enjoy communication with nature</h3>
               <div class="strategy__tags tags">

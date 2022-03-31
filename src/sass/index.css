@@ -481,6 +481,11 @@ h5 {
   line-height: 2.6rem;
 }
 
+.block-shadowed {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=index.css.map */
 .button {
   font-style: normal;
@@ -546,6 +551,63 @@ h5 {
   height: 19px;
 }
 
+.icon-square {
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: inline-block;
+}
+.icon-square_violet {
+  background-image: url("../img/tools/1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.icon-square_yellow {
+  background-image: url("../img/tools/2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.icon-square_red {
+  background-image: url("../img/tools/3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.icon-square_blue {
+  background-image: url("../img/tools/4.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.tags {
+  display: flex;
+}
+.tags > * {
+  margin-right: 7px;
+}
+
+.tag {
+  border-radius: 90px;
+  padding: 0 14px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+}
+.tag_selected {
+  background-color: #FF9900;
+}
+.tag_bordered {
+  border: 1px solid #D7D7D7;
+}
+.tag_colored {
+  background-color: #F5F5F5;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: auto;
@@ -563,8 +625,91 @@ h5 {
   justify-content: space-between;
 }
 
+.layout-4-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-4-column > * {
+  flex-basis: 21%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 45%;
+}
+
+.tools__wrapper {
+  padding-bottom: 120px;
+  background-image: url("../img/tools/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.tool__title {
+  margin: 1px 0 16px;
+}
+
 .strategies {
-  background: #FFEEE1;
+  padding: 30px 0;
+}
+
+.strategies__title {
+  margin: 0 0 14px;
+}
+
+.strategies__description {
+  margin-bottom: 0 0 24px;
+}
+
+.strategies__tags {
+  margin-bottom: 30px;
+}
+
+.strategy__image {
+  width: 100%;
+}
+
+.strategy-wrapper > * {
+  margin-bottom: 30px;
+}
+
+.strategy__content {
+  padding: 24px 33px 26px;
+}
+
+.strategy__name {
+  margin: 0 0 29px;
+}
+
+.promo {
+  margin-bottom: 110px;
 }
 
 .promo__wrapper {

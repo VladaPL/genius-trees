@@ -11,10 +11,13 @@
 @import "base/buttons";
 @import "base/logo";
 @import "base/icons";
+@import "base/tags";
 
 // Layouts
 @import "layouts/_wrapper.scss";
 @import "layouts/header";
+@import "layouts/columns";
+@import "layouts/tools";
 
 // Components
 @import "components/strategies";
