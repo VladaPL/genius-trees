@@ -1,0 +1,13 @@
+.header__logo-line {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  padding-left: 10px;
+  @extend %transition;
+}
+.logo-text:hover {
+  color: $color-primary;
+}
+

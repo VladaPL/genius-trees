@@ -1,8 +1,16 @@
+@import "base/normalize";
+// @import "../../node_modules/normalize-scss/sass/normalize"; не подключился!!!
+
+// Abstract
 @import "abstract/_constants.scss";
+@import "abstract/placeholders";
+@import "abstract/mixins";
 
 // Base
 @import "base/_base.scss";
 @import "base/buttons";
+@import "base/logo";
+@import "base/icons";
 
 // Layouts
 @import "layouts/_wrapper.scss";
@@ -10,6 +18,8 @@
 
 // Components
 @import "components/strategies";
+@import "components/promo";
+@import "components/navigation";
 
 
 

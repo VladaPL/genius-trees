@@ -1,21 +1,42 @@
 .button {
-  font-family: "Open Sans", Verdana, sans-serif;
+  @extend %font-prim;
   font-style: normal;
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2.2rem;
   padding: 11px 25px 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s;
+  &_bordered {
+    background: $color-light;
+    border: 1px solid $color-border;
+    color: $color-text;
+    margin: 0 10px 0 0;
+    &:hover {
+      background: $color-hovered;
+      border-color: $color-hovered ;
+    }
+  }
+  &_colored {
+    background: $color-primary;
+    border: 1px solid $color-primary;
+    color: $color-light;
+    &:hover {
+      background: $color-additional;
+      border-color: $color-additional;
+    }
+  }
 }
 
-.button_bordered {
-  background: $color-light;
-  border: 1px solid $color-border;
-  color: $color-text;
-  margin: 0 10px 0 0;
+.link-button {
+  color: $color-primary;
+  @extend %font-add;
+  display: inline-flex;
+  align-items: center;
 }
 
-.button_colored {
-  background: $color-primary;
-  border: 1px solid $color-primary;
-  color: $color-light;
+.link-button__text {
+  margin-left: 9px;
 }
+

@@ -6,6 +6,7 @@ import one from "./img/straregies/one.jpg";
 import two from "./img/straregies/two.jpg";
 import three from "./img/straregies/three.jpg";
 import four from "./img/straregies/four.jpg";
+import promoImg from "./img/backgrounds/5.png";
 
 // * Header section START
 
@@ -18,13 +19,14 @@ const HeaderLogo = () => {
       <a href="#">
         <img src={logo} alt="logo" />
       </a>
+      <h2 class="logo-text">Genius trees</h2>
     </div>
   );
 };
 
-const HeaderTitle = () => {
-  return <h2>Genius trees</h2>;
-};
+// const HeaderTitle = () => {
+//   return <h2 class="logo-text">Genius trees</h2>;
+// };
 
 const HeaderNavigation = () => {
   return (
@@ -53,7 +55,6 @@ const HeaderSection = () => {
     <header class="header">
       <div class="wrapper header__wrapper">
         <HeaderLogo />
-        <HeaderTitle />
         <HeaderNavigation />
         <HeaderButtons />
       </div>
@@ -82,6 +83,9 @@ const PromoSection = () => {
               <span class="link-button__text">Watch the Video</span>
             </a>
           </div>
+        </div>
+        <div class="promo__img">
+          <img class="promo__img-pic" src={promoImg} alt="promo-img" />
         </div>
       </div>
     </section>
@@ -231,7 +235,6 @@ const FooterSection = () => {
     <header class="footer">
       <div class="wrapper footer__wrapper">
         <HeaderLogo />
-        <HeaderTitle />
         <HeaderNavigation />
       </div>
     </header>
