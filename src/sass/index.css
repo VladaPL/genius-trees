@@ -417,7 +417,7 @@ ul {
   box-sizing: border-box;
 }
 
-.navigation__link, .logo-text {
+.navigation__link, .tag:hover, .logo-text {
   transition: all 0.3s ease-out;
 }
 
@@ -487,6 +487,11 @@ h5 {
 }
 
 /*# sourceMappingURL=index.css.map */
+.contacts-link {
+  color: #FF9900;
+  text-decoration: none;
+}
+
 .button {
   font-style: normal;
   font-weight: 600;
@@ -608,6 +613,10 @@ h5 {
   background-color: #F5F5F5;
 }
 
+.tag:hover {
+  background-color: #FF9900;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: auto;
@@ -673,7 +682,7 @@ h5 {
 }
 
 .tool__title {
-  margin: 1px 0 16px;
+  margin: 30px 0 16px;
 }
 
 .strategies {

@@ -21,3 +21,7 @@
     background-color: $color-tag;
   }
 }
+.tag:hover {
+  background-color: $color-primary;
+  @extend %transition;
+}
