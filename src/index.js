@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./sass/index.css";
-import logo from "./img/logo.png";
+
+// Components
+import {HeaderSection} from "./components/header";
+import {FooterSection} from "./components/footer";
+
+// Images
 import one from "./img/straregies/1.jpg";
 import two from "./img/straregies/2.jpg";
 import three from "./img/straregies/3.jpg";
@@ -10,61 +15,7 @@ import five from "./img/straregies/5.jpg";
 import six from "./img/straregies/6.jpg";
 import promoImg from "./img/backgrounds/5.png";
 
-// * Header section START
 
-const HeaderLogo = () => {
-  return (
-    <div class="header__logo-line">
-      <span class="header__hamburger hamburger">
-        <div class="hamburger__line"></div>
-      </span>
-      <a href="#">
-        <img src={logo} alt="logo" />
-      </a>
-      <h2 class="logo-text">Genius trees</h2>
-    </div>
-  );
-};
-
-// const HeaderTitle = () => {
-//   return <h2 class="logo-text">Genius trees</h2>;
-// };
-
-const HeaderNavigation = () => {
-  return (
-    <nav class="header__navigation">
-      <ul class="navigation">
-        <li class="navigation__link">Home</li>
-        <li class="navigation__link">Articles</li>
-        <li class="navigation__link">Inspiration</li>
-        <li class="navigation__link">Where to plant</li>
-      </ul>
-    </nav>
-  );
-};
-
-const HeaderButtons = () => {
-  return (
-    <div class="header__buttons">
-      <button class="button button_bordered">Sign In</button>
-      <button class="button button_colored">Sign Up</button>
-    </div>
-  );
-};
-
-const HeaderSection = () => {
-  return (
-    <header class="header">
-      <div class="wrapper header__wrapper">
-        <HeaderLogo />
-        <HeaderNavigation />
-        <HeaderButtons />
-      </div>
-    </header>
-  );
-};
-
-// * Header section END
 
 // * Promo section START
 
@@ -254,29 +205,6 @@ const StrategiesSection = () => {
 
 // * Strategies section END
 
-// * Footer section START
-
-const FooterSection = () => {
-  return (
-    <header class="footer header">
-      <div class="wrapper layout-3-column header__wrapper">
-        <HeaderLogo />
-        <HeaderNavigation />
-        <div>
-          <h3>Contacts</h3>
-          <p class="contacts">
-            <a class="contacts-link" href="mailto:genius_trees@yandex.ru">genius_trees@yandex.ru</a>
-          </p>
-          <p>
-            <a class="contacts-link" href="tel:+78003332222"> 8 800 333 22 22</a>
-          </p>
-        </div>
-      </div>
-    </header>
-  );
-};
-
-// * Footer section END
 
 const App = () => {
   return (
