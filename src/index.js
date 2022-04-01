@@ -2,9 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./sass/index.css";
 
-// Components
-import { HeaderSection } from "./components/header";
-import { FooterSection } from "./components/footer";
+import {App} from "./components/app";
 
 // Images
 import one from "./img/straregies/1.jpg";
@@ -14,8 +12,6 @@ import four from "./img/straregies/4.jpg";
 import five from "./img/straregies/5.jpg";
 import six from "./img/straregies/6.jpg";
 import promoImg from "./img/backgrounds/5.png";
-
-// * Promo section START
 
 const PromoSection = () => {
   return (
@@ -42,10 +38,6 @@ const PromoSection = () => {
     </section>
   );
 };
-
-// * Promo section END
-
-// * Tools section START
 
 const ToolsSection = () => {
   return (
@@ -105,10 +97,6 @@ const ToolsSection = () => {
     </section>
   );
 };
-
-// * Tools section END
-
-// * Strategies section START
 
 const StrategiesSection = () => {
   return (
@@ -207,18 +195,18 @@ const StrategiesSection = () => {
   );
 };
 
-// * Strategies section END
-
-const App = () => {
+const LandingPage = () => {
   return (
-    <div>
-      <HeaderSection />
+    <main className="landing-page">
       <PromoSection />
       <ToolsSection />
       <StrategiesSection />
-      <FooterSection />
-    </div>
+    </main>
   );
 };
 
+export {LandingPage};
+
 ReactDOM.render(<App />, document.getElementById("root"));
+
+
