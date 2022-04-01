@@ -5,7 +5,7 @@ Task: Тестовое задание. Сделать приложение на 
 Screenshot:
 ![](https://github.com/VladaPL/genius-trees/raw/master/src/img/readme-img.png)
 
-Deploy: https://vladapl.github.io/genius-trees/public/
+Deploy: https://vladapl.github.io/genius-trees/
 
 Description:
 
