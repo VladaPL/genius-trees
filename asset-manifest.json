@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/genius-trees/static/css/main.0262e517.css",
+    "main.js": "/genius-trees/static/js/main.5ac6bb4b.js",
+    "static/media/5.png": "/genius-trees/static/media/5.49482425f544e9cfa2bc.png",
+    "static/media/2.jpg": "/genius-trees/static/media/2.d6e2cd4f9d83ed84368c.jpg",
+    "static/media/1.jpg": "/genius-trees/static/media/1.9bcf379d888d135ae6b8.jpg",
+    "static/media/3.jpg": "/genius-trees/static/media/3.45c7f93ead61fb309071.jpg",
+    "static/media/5.jpg": "/genius-trees/static/media/5.783093505a0217f00368.jpg",
+    "static/media/4.jpg": "/genius-trees/static/media/4.54a48f95751e26944283.jpg",
+    "static/media/6.jpg": "/genius-trees/static/media/6.1c69514031e543aa40b0.jpg",
+    "static/media/logo.png": "/genius-trees/static/media/logo.4c420ba3aa3ede2fc8cf.png",
+    "static/media/3.svg": "/genius-trees/static/media/3.4cc6b6f22abb2080d33c.svg",
+    "static/media/1.svg": "/genius-trees/static/media/1.3e8a919e99bef0865ceb.svg",
+    "static/media/2.svg": "/genius-trees/static/media/2.6266f5ba921469128ada.svg",
+    "static/media/4.svg": "/genius-trees/static/media/4.a624e33316ec9454cb40.svg",
+    "static/media/tools-bg.svg": "/genius-trees/static/media/tools-bg.3717572fbccd9cfb7b93.svg",
+    "index.html": "/genius-trees/index.html",
+    "static/media/ico-play.svg": "/genius-trees/static/media/ico-play.3f68dfbb37c1ddf9e46a.svg",
+    "main.0262e517.css.map": "/genius-trees/static/css/main.0262e517.css.map",
+    "main.5ac6bb4b.js.map": "/genius-trees/static/js/main.5ac6bb4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0262e517.css",
+    "static/js/main.5ac6bb4b.js"
+  ]
+}
