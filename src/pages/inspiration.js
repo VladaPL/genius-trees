@@ -1,9 +1,9 @@
 import React from "react";
 
-const Inspiration = () => {
+const InspirationPage = () => {
   return (
     <div className="inspiration-page">Inspiration page</div>
   );
 };
 
-export {Inspiration};
+export {InspirationPage};
