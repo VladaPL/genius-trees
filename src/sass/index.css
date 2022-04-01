@@ -764,6 +764,8 @@ h5 {
 
 .navigation__link {
   list-style: none;
+  text-decoration: none;
+  color: #544837;
   padding: 0 10px;
   cursor: pointer;
 }

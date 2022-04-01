@@ -6,6 +6,8 @@
 
 .navigation__link {
   list-style: none;
+  text-decoration: none;
+  color: $color-text;
   padding: 0 10px;
   cursor: pointer;
   @extend %transition;
